@@ -1,4 +1,4 @@
-// Accept number from user and display its Non factors
+// Accept number from user and display its sum of factors
 
 // Input :      10
 // Output :     8
