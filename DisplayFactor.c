@@ -33,7 +33,7 @@ void DisplayFactor(int iNo)
 }
 int main()
 {
-    int iValue, bRet = 0;
+    int iValue = 0;
 
     printf("Enter the Number \n");
     scanf("%d", &iValue);
