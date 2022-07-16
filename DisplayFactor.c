@@ -23,7 +23,7 @@ void DisplayFactor(int iNo)
     {
         iNo = -iNo;
     }
-    for (iCnt = 1; iCnt <= iNo; iCnt++)
+    for (iCnt = 1; iCnt <=( iNo/2); iCnt++)
     {
         if ((iNo % iCnt) == 0)
         {
