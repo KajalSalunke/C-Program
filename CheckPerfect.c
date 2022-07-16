@@ -8,12 +8,17 @@
 bool ChkPerfect(int iNo)
 {
     int iCnt, iSum = 0;
-    for (iCnt = 1; iCnt <= (iNo / 2); iCnt++)
+    if(iNo < 0)
+    {
+        iNo = -iNo;
+    }
+    for(iCnt = 1; ((iCnt <= (iNo /2)) && (iSum <= iNo)); iCnt++)
     {
         if ((iNo % iCnt) == 0)
         {
             iSum = iSum + iCnt;
         }
+        
     }
     if (iSum == iNo)
     {
