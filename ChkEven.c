@@ -1,30 +1,3 @@
-// Input : 4
-//  Output : Even Number
-
-// Input : 55
-// Output : Odd Number
-
-/*
-Algorithm
-
-        START
-            Accept number from user as No
-            Check whether that number is negative or  not
-            If it is negative then convert it to positive
-
-            Create one variable as Sum and set it to 0
-            Create one variable as Cnt and set it to 1
-
-            Iterate till Cnt is less than or equal to No
-                Add the value of Cnt into the variable Sum
-                Inrement the value of Cnt by 1
-            Loop
-
-            Display the value of Sum
-        END
-
-
- */
 
 #include <stdio.h>
 #include <stdbool.h>
