@@ -8,9 +8,25 @@
 // Output : 28  (1+2+3+4+5+6+7)
 
 /*
-Algorithm
+Algoritham
     START
-    accept number from user
+    
+    Accept number from user as iValue
+    Check whether that number is negative or not
+    If negative then convert into positive 
+    
+    Create one variable as Sum and set it to 0
+    Create one variable as iCnt and set to as 1
+    
+    Iterate iCnt till less than or equal to iValue
+    Add the value of iCnt into the variable as Sum
+    Increment the value og iCnt by 1
+    Loop
+    
+    Display the value of Sum
+    END
+    
+    
 
 
  */
@@ -43,9 +59,9 @@ int main()
     int iValue1, iRet = 0;
 
     printf("Enter the Number \n");
-    scanf("%d", &iValue1);
+    scanf("%d", &iValue);
 
-    iRet = Summation(iValue1);
+    iRet = Summation(iValue);
     printf("Summation is : %d \n", iRet);
 
     return 0;
