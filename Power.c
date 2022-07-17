@@ -1,6 +1,6 @@
 // Input : 2    4
 // Output : 16  (2 * 2 * 2 * 2
-#include <stdio.h>
+#include  <stdio.h>
 int Power(int iNo1, int iNo2)
 {
     int Mult = 1;
